@@ -1,0 +1,75 @@
+.header {
+    background-color: black;
+    padding: 30px;
+}
+
+.ul {
+    color: white;
+    display: flex;
+    gap: 50px;
+}
+.bigest{
+    margin: auto;
+}
+.ul li a::after {
+    content: "";
+    width: 0%;
+    display: block;
+    transition: 0.4s;
+}
+
+.ul li a:hover::after {
+    content: "";
+    background-color: orange;
+    height: 2px;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+}
+
+.ul li a {
+    color: white;
+}
+
+
+
+.btn1 {
+    background-color: orange;
+    width: 131px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.father {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+span {
+    color: orange;
+}
+
+.bigtext {
+    text-align: center;
+    color: white;
+    width: 980px;
+    margin-left: 120px;
+    font-size: 40px;
+}
+
+.text1 {
+    color: white;
+    text-align: center;
+}
