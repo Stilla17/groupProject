@@ -12,6 +12,7 @@
     color: #e87d0e;
 }
 
+
 .header__title {
     font-weight: 700;
     font-size: 50px;
@@ -26,6 +27,7 @@
     line-height: 200%;
     color: #fff;
     margin-top: 25px;
+    width: 527px;
     margin-bottom: 50px;
 }
 
@@ -33,11 +35,12 @@
     font-weight: 500;
     font-size: 16px;
     border-radius: 40px;
-    padding: 15px 30px; 
+    padding: 15px 30px;
     color: #fff;
     background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
 }
+
 .header__btn:hover {
-  box-shadow: 0 0 20px rgba(251, 158, 60, 0.6);
-  transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(251, 158, 60, 0.6);
+    transform: scale(1.05);
 }
