@@ -1,11 +1,10 @@
 import React from 'react'
-import Nav from './Component/Nav/Nav'
+import Header from './Component/Header/Header'
 
 const App = () => {
   return (
     <div>
-      <Nav />
-
+      <Header />
     </div>
   )
 }
