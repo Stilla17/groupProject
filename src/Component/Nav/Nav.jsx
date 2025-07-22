@@ -17,8 +17,8 @@ const Nav = () => {
                                     <ul className='ul'>
                                         <li><a href="">Home</a></li>
                                         <li><a href="">Contact</a></li>
-                                        <li>portfolio</li>
-                                        <li>News</li>
+                                        <li><a href="">portfolio</a></li>
+                                        <li><a href="">News</a></li>
                                     </ul>
                                 </div>
                                 <button className='btn1'>Contact us</button>
