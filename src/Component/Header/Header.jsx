@@ -1,11 +1,13 @@
 import React from 'react'
 import img from "../../assets/joystick.png"
 import "../Header/header.css"
+import Nav from '../Nav/Nav'
 const Header = () => {
   return (
     <>
       <header>
         <div className="container">
+          <Nav />
           <div className="header-wrapper">
             <div className="header-wrapper__content">
               <a href="#" className="header__link">3D game Dev </a>

@@ -1,6 +1,8 @@
-.header {
-    background-color: black;
-    padding: 30px;
+nav {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .ul {
@@ -8,12 +10,11 @@
     display: flex;
     gap: 50px;
 }
-.bigest{
-    margin: auto;
-}
+
 .ul li a::after {
     content: "";
     width: 0%;
+    height: 2px;
     display: block;
     transition: 0.4s;
 }
@@ -31,19 +32,12 @@
     color: white;
 }
 
-
-
 .btn1 {
-    background-color: orange;
-    width: 131px;
-    height: 40px;
+    background-color: #FA9021;
+    padding: 10px 27px;
     border: none;
-    border-radius: 50px;
-}
-
-.container {
-    width: 1200px;
-    margin: auto;
+    border-radius: 6px;
+    color: white;
 }
 
 .father {
@@ -72,4 +66,10 @@ span {
 .text1 {
     color: white;
     text-align: center;
+}
+
+.bigest {
+    display: flex;
+    align-items: center;
+    gap: 36px;
 }
