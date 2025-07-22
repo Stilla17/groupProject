@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.comtainer{
+main {
+    background-color: black;
+    font-family: Rubik;
+}
+.container{
     width: 1160px;
     margin: auto;
 }
@@ -18,5 +22,32 @@
     color: white;
     font-size: 20px;
     font-weight: 500;
-    
+    padding: 10px 30px;
+}
+.main_box {
+    display: flex;
+    justify-content: space-between;
+}
+.main_wrapper {
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+
+}
+.follow {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.main_text2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
