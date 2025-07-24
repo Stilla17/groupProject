@@ -46,3 +46,40 @@
 .Lorem_img {
     position: relative;
 }
+.Lorem_box2 {
+    background-image: url('src/assets/Images/db4d123c4b390965f684f22d4bf13849 1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.backg {
+    background-color: #000000A6;
+    backdrop-filter: 4px;
+    padding: 93px 0px 93px 0px;
+}
+.Lorem_card {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+.Lorem_wrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.Lorem_wrapper {
+    width: 826px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
