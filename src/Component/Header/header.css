@@ -12,6 +12,7 @@
     color: #e87d0e;
 }
 
+
 .header__title {
     font-weight: 700;
     font-size: 50px;
@@ -25,6 +26,7 @@
     line-height: 200%;
     color: #fff;
     margin-top: 25px;
+    width: 527px;
     margin-bottom: 50px;
 }
 
