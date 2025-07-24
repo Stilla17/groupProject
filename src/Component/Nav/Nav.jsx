@@ -15,10 +15,10 @@ const Nav = () => {
                                 </div>
                                 <div className='bigest'>
                                     <ul className='ul'>
-                                        <li><a href="">Home</a></li>
-                                        <li><a href="">Contact</a></li>
-                                        <li><a href="">portfolio</a></li>
-                                        <li><a href="">News</a></li>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">portfolio</a></li>
+                                        <li><a href="#">News</a></li>
                                     </ul>
                                 </div>
                                 <button className='btn1'>Contact us</button>
