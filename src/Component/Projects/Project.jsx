@@ -5,9 +5,9 @@ import img2 from '../../assets/Rectangle 17.png'
 import img3 from '../../assets/Rectangle 18.png'
 import img4 from '../../assets/Rectangle 19.png'
 import img5 from '../../assets/Rectangle 20.png'
+import "./Project.css"
 
-
-const App = () => {
+const Project = () => {
     return (
         <div>
             <section className="projects-section">
@@ -39,4 +39,4 @@ const App = () => {
     )
 }
 
-export default App
+export default Project;
