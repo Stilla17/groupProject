@@ -6,16 +6,17 @@ import LoremI from './Component/Main/Lorem Ipsum/LoremI'
 import footer from "./Component/Footer/Footer"
 import Footer from './Component/Footer/Footer'
 import Project from './Component/Projects/Project'
+import News from './Pages/News/News'
+import NewsMain from './Pages/News/NewsMain'
+import NewsFooter from './Pages/News/NewsFooter'
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Trending />
-      <Lorem />
-      <LoremI />
-      <Project />
-      <Footer />
+      <News/>
+      <NewsMain/>
+      <NewsFooter/>
+
     </div>
   )
 }
